@@ -14,11 +14,14 @@ function loadOwners(): Owner[] {
 export default function HallOfFamePage() {
   const owners = loadOwners();
 
-  // Hall of Fame criteria: 3+ championships OR exceptional achievements (5+ most points seasons)
+  // Helper to get championship count (supports 0.5 for split championships)
+  const getChampCount = (o: Owner) => (o as any).championshipCount ?? o.championships.length;
+
+  // Hall of Fame criteria: 2+ championships OR exceptional achievements (5+ most points seasons)
   const hallOfFamers = owners.filter(
-    o => o.championships.length >= 3 ||
+    o => getChampCount(o) >= 2 ||
     (o.mostPointsSeasons && o.mostPointsSeasons.length >= 5)
-  ).sort((a, b) => b.championships.length - a.championships.length);
+  ).sort((a, b) => getChampCount(b) - getChampCount(a));
 
   // Other notable achievements
   const ironMen = owners
@@ -48,7 +51,9 @@ export default function HallOfFamePage() {
         </h2>
         {hallOfFamers.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {hallOfFamers.map((owner) => (
+            {hallOfFamers.map((owner) => {
+              const champCount = getChampCount(owner);
+              return (
               <Link
                 key={owner.id}
                 href={`/owners/${owner.id}`}
@@ -56,22 +61,22 @@ export default function HallOfFamePage() {
               >
                 <div className="text-center mb-4">
                   <div className="text-4xl mb-2">
-                    {owner.championships.length >= 3 ? '👑' : owner.mostPointsSeasons && owner.mostPointsSeasons.length >= 5 ? '📊' : '🏆'}
+                    {champCount >= 3 ? '👑' : owner.mostPointsSeasons && owner.mostPointsSeasons.length >= 5 ? '📊' : '🏆'}
                   </div>
                   <h3 className="text-xl font-bold text-trophy-gold mb-1">
                     {owner.name}
                   </h3>
-                  {owner.championships.length >= 3 ? (
+                  {champCount >= 3 ? (
                     <p className="text-sm text-text-muted">
-                      {owner.championships.length}x Champion
+                      {champCount}x Champion
                     </p>
                   ) : owner.mostPointsSeasons && owner.mostPointsSeasons.length >= 5 ? (
                     <p className="text-sm text-text-muted">
                       {owner.mostPointsSeasons.length}x Most Points Leader
                     </p>
-                  ) : owner.championships.length > 0 ? (
+                  ) : champCount > 0 ? (
                     <p className="text-sm text-text-muted">
-                      {owner.championships.length}x Champion
+                      {champCount}x Champion
                     </p>
                   ) : null}
                 </div>
@@ -80,7 +85,7 @@ export default function HallOfFamePage() {
                   <div className="flex justify-between">
                     <span className="text-text-muted">Championships</span>
                     <span className="font-bold text-trophy-gold">
-                      {owner.championships.length}
+                      {champCount}
                     </span>
                   </div>
                   {owner.mostPointsSeasons && owner.mostPointsSeasons.length > 0 && (
@@ -117,11 +122,12 @@ export default function HallOfFamePage() {
                   </div>
                 )}
               </Link>
-            ))}
+            );
+            })}
           </div>
         ) : (
           <p className="text-text-muted text-center py-8">
-            No Hall of Fame members yet. Criteria: 3+ championships or exceptional achievements
+            No Hall of Fame members yet. Criteria: 2+ championships or exceptional achievements
           </p>
         )}
       </section>
