@@ -17,11 +17,11 @@ export default function HallOfFamePage() {
   // Helper to get championship count (supports 0.5 for split championships)
   const getChampCount = (o: Owner) => (o as any).championshipCount ?? o.championships.length;
 
-  // Hall of Fame criteria: 2+ championships OR exceptional achievements (5+ most points seasons)
-  const hallOfFamers = owners.filter(
-    o => getChampCount(o) >= 2 ||
-    (o.mostPointsSeasons && o.mostPointsSeasons.length >= 5)
-  ).sort((a, b) => getChampCount(b) - getChampCount(a));
+  // Hall of Fame members (manually curated)
+  const hofNames = ['Aman Nahal', 'Raj S', 'Amarjit Gill'];
+  const hallOfFamers = owners
+    .filter(o => hofNames.includes(o.name))
+    .sort((a, b) => getChampCount(b) - getChampCount(a));
 
   // Other notable achievements
   const ironMen = owners
