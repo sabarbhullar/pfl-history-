@@ -32,7 +32,7 @@ export default function RootLayout({
         <main className="min-h-screen">
           {children}
         </main>
-        <footer className="border-t border-bg-tertiary bg-bg-secondary py-8 mt-16">
+        <footer className="border-t border-accent-primary/50 bg-bg-secondary py-8 mt-16 shadow-[0_-5px_15px_rgba(0,212,255,0.2)]">
           <div className="container mx-auto px-4 text-center text-text-muted text-sm">
             <p>PFL - Fantasy Football - Est. 2004</p>
           </div>

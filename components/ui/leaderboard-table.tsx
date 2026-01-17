@@ -75,9 +75,9 @@ export function LeaderboardTable<T extends Record<string, any>>({
   };
 
   return (
-    <div className={cn('overflow-x-auto rounded-lg border border-bg-tertiary', className)}>
+    <div className={cn('overflow-x-auto rounded-lg border border-accent-primary/30 shadow-[0_0_10px_rgba(0,212,255,0.1)]', className)}>
       <table className="w-full text-sm">
-        <thead className="bg-bg-tertiary">
+        <thead className="bg-bg-tertiary border-b border-accent-primary/20">
           <tr>
             {columns.map((column) => (
               <th
@@ -106,7 +106,7 @@ export function LeaderboardTable<T extends Record<string, any>>({
             ))}
           </tr>
         </thead>
-        <tbody className="bg-bg-secondary divide-y divide-bg-tertiary">
+        <tbody className="bg-bg-secondary divide-y divide-accent-primary/10">
           {sortedData.map((row, rowIndex) => (
             <tr
               key={rowIndex}

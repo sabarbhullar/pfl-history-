@@ -52,7 +52,7 @@ export default function RivalriesPage() {
           {rivalries.map((rivalry, index) => (
             <div
               key={index}
-              className="border border-bg-tertiary bg-bg-secondary rounded-lg p-6"
+              className="border border-accent-primary/30 bg-bg-secondary rounded-lg p-6 shadow-[0_0_10px_rgba(0,212,255,0.1)]"
             >
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-4">
@@ -134,7 +134,7 @@ export default function RivalriesPage() {
               </div>
 
               {/* Points Comparison */}
-              <div className="mt-6 pt-6 border-t border-bg-tertiary">
+              <div className="mt-6 pt-6 border-t border-accent-primary/20">
                 <div className="flex items-center justify-between text-sm">
                   <div>
                     <span className="text-text-muted">Avg Points: </span>
@@ -155,7 +155,7 @@ export default function RivalriesPage() {
           ))}
         </div>
       ) : (
-        <div className="text-center py-12 border border-bg-tertiary rounded-lg">
+        <div className="text-center py-12 border border-accent-primary/30 rounded-lg shadow-[0_0_10px_rgba(0,212,255,0.1)]">
           <p className="text-text-muted">
             No rivalry data available yet. Weekly matchup data is needed from ESPN API.
           </p>

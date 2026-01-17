@@ -126,7 +126,7 @@ export default function HallOfFamePage() {
             })}
           </div>
         ) : (
-          <p className="text-text-muted text-center py-8">
+          <p className="text-text-muted text-center py-8 border border-accent-primary/30 rounded-lg shadow-[0_0_10px_rgba(0,212,255,0.1)]">
             No Hall of Fame members yet. Criteria: 2+ championships or exceptional achievements
           </p>
         )}
@@ -144,7 +144,7 @@ export default function HallOfFamePage() {
               <Link
                 key={owner.id}
                 href={`/owners/${owner.id}`}
-                className="block border border-bg-tertiary bg-bg-secondary rounded-lg p-4 hover:border-accent-primary transition-colors"
+                className="block border border-accent-primary/30 bg-bg-secondary rounded-lg p-4 hover:border-accent-primary hover:shadow-[0_0_15px_rgba(0,212,255,0.2)] transition-all"
               >
                 <div className="flex items-center justify-between">
                   <div>
@@ -178,7 +178,7 @@ export default function HallOfFamePage() {
               <Link
                 key={owner.id}
                 href={`/owners/${owner.id}`}
-                className="block border border-bg-tertiary bg-bg-secondary rounded-lg p-4 hover:border-accent-primary transition-colors"
+                className="block border border-accent-primary/30 bg-bg-secondary rounded-lg p-4 hover:border-accent-primary hover:shadow-[0_0_15px_rgba(0,212,255,0.2)] transition-all"
               >
                 <div className="flex items-center justify-between">
                   <div>

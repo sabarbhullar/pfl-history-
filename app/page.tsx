@@ -88,7 +88,7 @@ export default function HomePage() {
     <div className="container mx-auto px-4 py-8">
       {/* Hero Section */}
       <div className="text-center mb-12">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-trophy-gold via-trophy-orange to-trophy-red bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-neon-cyan via-accent-primary to-neon-blue bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(0,212,255,0.5)]">
           PFL Fantasy Football
         </h1>
         <p className="text-xl text-text-secondary">
@@ -109,7 +109,7 @@ export default function HomePage() {
         {championBanners.length > 0 ? (
           <ChampionBannersGrid banners={championBanners} />
         ) : (
-          <div className="text-center py-12 border border-bg-tertiary rounded-lg">
+          <div className="text-center py-12 border border-accent-primary/30 rounded-lg shadow-[0_0_10px_rgba(0,212,255,0.1)]">
             <p className="text-text-muted">
               No championship data available yet. Upload CSV data in the admin panel.
             </p>

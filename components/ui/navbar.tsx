@@ -20,11 +20,11 @@ export function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="border-b border-bg-tertiary bg-bg-secondary">
+    <nav className="border-b border-accent-primary/50 bg-bg-secondary shadow-[0_0_15px_rgba(0,212,255,0.3)]">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold bg-gradient-to-r from-trophy-gold via-trophy-orange to-trophy-red bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-to-r from-neon-cyan via-accent-primary to-neon-blue bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(0,212,255,0.8)]">
               PFL
             </span>
             <span className="text-sm text-text-secondary hidden sm:block">
@@ -94,7 +94,7 @@ function MobileMenu({
       </button>
 
       {isOpen && (
-        <div className="absolute top-16 left-0 right-0 bg-bg-secondary border-b border-bg-tertiary z-50">
+        <div className="absolute top-16 left-0 right-0 bg-bg-secondary border-b border-accent-primary/50 z-50 shadow-[0_0_15px_rgba(0,212,255,0.3)]">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navigation.map((item) => {
               const isActive = pathname === item.href || pathname?.startsWith(item.href + '/');

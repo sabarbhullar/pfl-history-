@@ -82,7 +82,7 @@ export default function RecordsPage() {
           ))}
         </div>
       ) : (
-        <div className="text-center py-12 border border-bg-tertiary rounded-lg">
+        <div className="text-center py-12 border border-accent-primary/30 rounded-lg shadow-[0_0_10px_rgba(0,212,255,0.1)]">
           <p className="text-text-muted">
             No record data available yet. Refresh ESPN data in the admin panel.
           </p>
@@ -109,8 +109,8 @@ function RecordCard({
     <div
       className={`border rounded-lg p-6 transition-all cursor-pointer ${
         isExpanded
-          ? 'border-accent-primary bg-bg-secondary shadow-lg shadow-accent-primary/10'
-          : 'border-bg-tertiary bg-bg-secondary hover:border-accent-primary hover:shadow-lg hover:shadow-accent-primary/10'
+          ? 'border-accent-primary bg-bg-secondary shadow-[0_0_20px_rgba(0,212,255,0.25)]'
+          : 'border-accent-primary/30 bg-bg-secondary hover:border-accent-primary hover:shadow-[0_0_20px_rgba(0,212,255,0.2)]'
       }`}
       onClick={onToggle}
     >
@@ -160,7 +160,7 @@ function RecordCard({
 
       {/* Expandable Top 10 List */}
       {isExpanded && record.topTen && record.topTen.length > 0 && (
-        <div className="mt-6 pt-6 border-t border-bg-tertiary">
+        <div className="mt-6 pt-6 border-t border-accent-primary/20">
           <h4 className="text-sm font-bold text-text-muted mb-3 uppercase tracking-wide">
             Top 10
           </h4>

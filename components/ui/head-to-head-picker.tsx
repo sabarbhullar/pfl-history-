@@ -134,7 +134,7 @@ export function HeadToHeadPicker({ seasons, activeOwners }: HeadToHeadPickerProp
   }, [player1, player2, seasons]);
 
   return (
-    <div className="border border-accent-primary/50 bg-accent-primary/5 rounded-lg p-6 mb-8">
+    <div className="border border-accent-primary/40 bg-accent-primary/5 rounded-lg p-6 mb-8 shadow-[0_0_15px_rgba(0,212,255,0.15)]">
       <h2 className="text-2xl font-bold text-text-primary mb-4">Head-to-Head Lookup</h2>
       <p className="text-sm text-text-muted mb-4">Select any two players to see their matchup history</p>
 
@@ -145,7 +145,7 @@ export function HeadToHeadPicker({ seasons, activeOwners }: HeadToHeadPickerProp
           <select
             value={player1}
             onChange={(e) => setPlayer1(e.target.value)}
-            className="w-full bg-bg-tertiary border border-bg-tertiary rounded-lg px-4 py-2 text-text-primary focus:outline-none focus:border-accent-primary"
+            className="w-full bg-bg-tertiary border border-accent-primary/30 rounded-lg px-4 py-2 text-text-primary focus:outline-none focus:border-accent-primary focus:shadow-[0_0_10px_rgba(0,212,255,0.2)]"
           >
             <option value="">Select player...</option>
             {activeOwners.map(owner => (
@@ -165,7 +165,7 @@ export function HeadToHeadPicker({ seasons, activeOwners }: HeadToHeadPickerProp
           <select
             value={player2}
             onChange={(e) => setPlayer2(e.target.value)}
-            className="w-full bg-bg-tertiary border border-bg-tertiary rounded-lg px-4 py-2 text-text-primary focus:outline-none focus:border-accent-primary"
+            className="w-full bg-bg-tertiary border border-accent-primary/30 rounded-lg px-4 py-2 text-text-primary focus:outline-none focus:border-accent-primary focus:shadow-[0_0_10px_rgba(0,212,255,0.2)]"
           >
             <option value="">Select player...</option>
             {activeOwners.map(owner => (

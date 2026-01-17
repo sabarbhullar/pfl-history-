@@ -19,16 +19,16 @@ export function StatCard({
   className,
 }: StatCardProps) {
   const variantStyles = {
-    default: 'border-bg-tertiary bg-bg-secondary',
+    default: 'border-accent-primary/30 bg-accent-primary/5 shadow-[0_0_10px_rgba(0,212,255,0.1)]',
     gold: 'border-trophy-gold/30 bg-trophy-gold/10',
-    orange: 'border-trophy-orange/30 bg-trophy-orange/10',
+    orange: 'border-accent-primary/40 bg-accent-primary/10 shadow-[0_0_15px_rgba(0,212,255,0.15)]',
     red: 'border-trophy-red/30 bg-trophy-red/10',
   };
 
   const accentColors = {
-    default: 'text-text-primary',
+    default: 'text-accent-primary',
     gold: 'text-trophy-gold',
-    orange: 'text-trophy-orange',
+    orange: 'text-accent-primary',
     red: 'text-trophy-red',
   };
 

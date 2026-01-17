@@ -28,7 +28,7 @@ export default function SeasonsPage() {
       {seasons.length > 0 ? (
         <SeasonsGrid seasons={seasons} />
       ) : (
-        <div className="text-center py-12 border border-bg-tertiary rounded-lg">
+        <div className="text-center py-12 border border-accent-primary/30 rounded-lg shadow-[0_0_10px_rgba(0,212,255,0.1)]">
           <p className="text-text-muted">
             No season data available yet. Upload CSV data in the admin panel.
           </p>

@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  /* Dark theme - football trophy vibes */
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  /* Dark theme - Tron neon blue */
+  --background: #000000;
+  --foreground: #e0f7ff;
 
-  /* Orange/Red/Gold color palette */
+  /* Trophy colors - keep gold for championships */
   --trophy-gold: #fbbf24;
   --trophy-gold-dark: #f59e0b;
   --trophy-orange: #fb923c;
@@ -13,21 +13,26 @@
   --trophy-red: #ef4444;
   --trophy-red-dark: #dc2626;
 
-  /* Accent colors */
-  --accent-primary: #fb923c;
-  --accent-secondary: #fbbf24;
-  --accent-tertiary: #ef4444;
+  /* Neon blue accent colors */
+  --accent-primary: #00d4ff;
+  --accent-secondary: #0ea5e9;
+  --accent-tertiary: #06b6d4;
 
-  /* Background variations */
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #171717;
-  --bg-tertiary: #262626;
-  --bg-hover: #2d2d2d;
+  /* Tron-style dark backgrounds */
+  --bg-primary: #000000;
+  --bg-secondary: #0a1628;
+  --bg-tertiary: #0f2847;
+  --bg-hover: #1a3a5c;
 
-  /* Text colors */
-  --text-primary: #ededed;
-  --text-secondary: #a3a3a3;
-  --text-muted: #737373;
+  /* Neon glow colors */
+  --neon-blue: #00d4ff;
+  --neon-cyan: #00f0ff;
+  --neon-purple: #a855f7;
+
+  /* Text colors - cooler tones */
+  --text-primary: #e0f7ff;
+  --text-secondary: #7dd3fc;
+  --text-muted: #38bdf8;
 }
 
 @theme inline {
@@ -49,6 +54,11 @@
   --color-accent-secondary: var(--accent-secondary);
   --color-accent-tertiary: var(--accent-tertiary);
 
+  /* Neon colors */
+  --color-neon-blue: var(--neon-blue);
+  --color-neon-cyan: var(--neon-cyan);
+  --color-neon-purple: var(--neon-purple);
+
   /* Background variations */
   --color-bg-primary: var(--bg-primary);
   --color-bg-secondary: var(--bg-secondary);
@@ -66,4 +76,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
+}
+
+/* Tron-style neon glow effects */
+.neon-border {
+  border-color: var(--neon-blue);
+  box-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue), inset 0 0 5px rgba(0, 212, 255, 0.1);
+}
+
+.neon-text {
+  text-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue);
+}
+
+/* Glow effect on hover for cards */
+.hover\:neon-glow:hover {
+  box-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue), 0 0 30px var(--neon-blue);
 }

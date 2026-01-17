@@ -76,7 +76,7 @@ export default function OwnersPage() {
       )}
 
       {owners.length === 0 && (
-        <div className="text-center py-12 border border-bg-tertiary rounded-lg">
+        <div className="text-center py-12 border border-accent-primary/30 rounded-lg shadow-[0_0_10px_rgba(0,212,255,0.1)]">
           <p className="text-text-muted">
             No owner data available yet. Upload CSV data in the admin panel.
           </p>
@@ -93,7 +93,7 @@ function OwnerCard({ owner }: { owner: Owner }) {
   return (
     <Link
       href={`/owners/${owner.id}`}
-      className="block rounded-lg border border-bg-tertiary bg-bg-secondary p-6 transition-all hover:border-accent-primary hover:shadow-lg hover:shadow-accent-primary/10"
+      className="block rounded-lg border border-accent-primary/30 bg-bg-secondary p-6 transition-all hover:border-accent-primary hover:shadow-[0_0_20px_rgba(0,212,255,0.3)]"
     >
       <div className="flex items-start justify-between mb-4">
         <h3 className="text-xl font-bold text-text-primary">{owner.name}</h3>
@@ -123,7 +123,7 @@ function OwnerCard({ owner }: { owner: Owner }) {
           </span>
         </div>
         {owner.championships.length > 0 && (
-          <div className="pt-2 border-t border-bg-tertiary">
+          <div className="pt-2 border-t border-accent-primary/20">
             <span className="text-xs text-trophy-gold">
               Champion: {owner.championships.join(', ')}
             </span>

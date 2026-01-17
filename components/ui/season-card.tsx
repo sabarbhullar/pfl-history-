@@ -9,7 +9,7 @@ export function SeasonCard({ season }: SeasonCardProps) {
   return (
     <Link
       href={`/seasons/${season.year}`}
-      className="block rounded-lg border border-bg-tertiary bg-bg-secondary p-6 transition-all hover:border-accent-primary hover:shadow-lg hover:shadow-accent-primary/10"
+      className="block rounded-lg border border-accent-primary/30 bg-bg-secondary p-6 transition-all hover:border-accent-primary hover:shadow-[0_0_20px_rgba(0,212,255,0.2)]"
     >
       <div className="flex items-start justify-between mb-4">
         <h3 className="text-2xl font-bold text-text-primary">{season.year}</h3>
@@ -51,7 +51,7 @@ export function SeasonCard({ season }: SeasonCardProps) {
       </div>
 
       {season.keyMoments && season.keyMoments.length > 0 && (
-        <div className="mt-4 pt-4 border-t border-bg-tertiary">
+        <div className="mt-4 pt-4 border-t border-accent-primary/20">
           <span className="text-xs text-accent-primary">
             {season.keyMoments.length} key moment{season.keyMoments.length !== 1 ? 's' : ''}
           </span>
