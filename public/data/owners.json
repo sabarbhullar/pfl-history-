@@ -1,0 +1,2374 @@
+[
+  {
+    "id": "alexander-james",
+    "name": "Alexander James",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2015,
+      2016
+    ],
+    "championships": [],
+    "runnerUps": [
+      2009,
+      2013
+    ],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2011
+    ],
+    "totalSeasons": 11,
+    "playoffAppearances": 6,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 75,
+      "totalLosses": 68,
+      "totalPointsFor": 14012.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 52.4,
+      "playoffPercentage": 54.5,
+      "bestRecord": {
+        "year": 2012,
+        "wins": 11,
+        "losses": 2,
+        "pointsFor": 1658,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2006,
+        "wins": 2,
+        "losses": 11,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1273.86,
+      "avgWinsPerSeason": 6.8
+    }
+  },
+  {
+    "id": "aman-nahal",
+    "name": "Aman Nahal",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [
+      2014,
+      2018,
+      2024,
+      2025
+    ],
+    "runnerUps": [
+      2010
+    ],
+    "mostPointsSeasons": [
+      2017,
+      2018,
+      2025
+    ],
+    "lastPlaceSeasons": [
+      2005
+    ],
+    "totalSeasons": 20,
+    "playoffAppearances": 10,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 137,
+      "totalLosses": 131,
+      "totalPointsFor": 26090,
+      "totalPointsAgainst": 0,
+      "winPercentage": 51.1,
+      "playoffPercentage": 50,
+      "bestRecord": {
+        "year": 2025,
+        "wins": 11,
+        "losses": 3,
+        "pointsFor": 1696.2999999999997,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2022,
+        "wins": 4,
+        "losses": 10,
+        "pointsFor": 1334,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1304.5,
+      "avgWinsPerSeason": 6.9
+    }
+  },
+  {
+    "id": "amarjit-gill",
+    "name": "Amarjit Gill",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [
+      2010,
+      2015
+    ],
+    "runnerUps": [],
+    "mostPointsSeasons": [
+      2004,
+      2010,
+      2015,
+      2023
+    ],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 19,
+    "playoffAppearances": 14,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 150,
+      "totalLosses": 106,
+      "totalPointsFor": 25169.199999999997,
+      "totalPointsAgainst": 0,
+      "winPercentage": 58.6,
+      "playoffPercentage": 73.7,
+      "bestRecord": {
+        "year": 2004,
+        "wins": 14,
+        "losses": 3,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2014,
+        "wins": 3,
+        "losses": 10,
+        "pointsFor": 1486,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1324.69,
+      "avgWinsPerSeason": 7.9
+    }
+  },
+  {
+    "id": "baljit-gill",
+    "name": "Baljit Gill",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [],
+    "runnerUps": [
+      2022
+    ],
+    "mostPointsSeasons": [
+      2022
+    ],
+    "lastPlaceSeasons": [
+      2016,
+      2018,
+      2019
+    ],
+    "totalSeasons": 21,
+    "playoffAppearances": 5,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 137,
+      "totalLosses": 144,
+      "totalPointsFor": 26374.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 48.8,
+      "playoffPercentage": 23.8,
+      "bestRecord": {
+        "year": 2022,
+        "wins": 11,
+        "losses": 3,
+        "pointsFor": 1558,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2012,
+        "wins": 3,
+        "losses": 10,
+        "pointsFor": 1508,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1255.93,
+      "avgWinsPerSeason": 6.5
+    }
+  },
+  {
+    "id": "daven-bhukhan",
+    "name": "Daven Bhukhan",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 3,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 19,
+      "totalLosses": 24,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 44.2,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2005,
+        "wins": 6,
+        "losses": 7,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2004,
+        "wins": 7,
+        "losses": 10,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 6.3
+    }
+  },
+  {
+    "id": "dino-singh",
+    "name": "Dino Singh",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2007
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 4,
+      "totalLosses": 9,
+      "totalPointsFor": 1327.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 30.8,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2007,
+        "wins": 4,
+        "losses": 9,
+        "pointsFor": 1327.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2007,
+        "wins": 4,
+        "losses": 9,
+        "pointsFor": 1327.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1327.5,
+      "avgWinsPerSeason": 4
+    }
+  },
+  {
+    "id": "gs-pannu",
+    "name": "GS Pannu",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 3,
+    "playoffAppearances": 2,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 25,
+      "totalLosses": 18,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 58.1,
+      "playoffPercentage": 66.7,
+      "bestRecord": {
+        "year": 2005,
+        "wins": 8,
+        "losses": 5,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2004,
+        "wins": 9,
+        "losses": 8,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 8.3
+    }
+  },
+  {
+    "id": "gurjit-srai",
+    "name": "Gurjit Srai",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2018
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 1,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 7,
+      "totalLosses": 6,
+      "totalPointsFor": 1798,
+      "totalPointsAgainst": 0,
+      "winPercentage": 53.8,
+      "playoffPercentage": 100,
+      "bestRecord": {
+        "year": 2018,
+        "wins": 7,
+        "losses": 6,
+        "pointsFor": 1798,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2018,
+        "wins": 7,
+        "losses": 6,
+        "pointsFor": 1798,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1798,
+      "avgWinsPerSeason": 7
+    }
+  },
+  {
+    "id": "hans-gill",
+    "name": "Hans Gill",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 2,
+    "playoffAppearances": 1,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 16,
+      "totalLosses": 14,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 53.3,
+      "playoffPercentage": 50,
+      "bestRecord": {
+        "year": 2004,
+        "wins": 10,
+        "losses": 7,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2005,
+        "wins": 6,
+        "losses": 7,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 8
+    }
+  },
+  {
+    "id": "harbinder-khangura",
+    "name": "Harbinder Khangura",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [],
+    "runnerUps": [
+      2017
+    ],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2022
+    ],
+    "totalSeasons": 15,
+    "playoffAppearances": 6,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 99,
+      "totalLosses": 100,
+      "totalPointsFor": 23016.2,
+      "totalPointsAgainst": 0,
+      "winPercentage": 49.7,
+      "playoffPercentage": 40,
+      "bestRecord": {
+        "year": 2012,
+        "wins": 11,
+        "losses": 2,
+        "pointsFor": 1670,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2025,
+        "wins": 3,
+        "losses": 11,
+        "pointsFor": 1340.3,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1534.41,
+      "avgWinsPerSeason": 6.6
+    }
+  },
+  {
+    "id": "harinder-hansrai",
+    "name": "Harinder Hansrai",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "championships": [],
+    "runnerUps": [
+      2012
+    ],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2008,
+      2013
+    ],
+    "totalSeasons": 9,
+    "playoffAppearances": 1,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 44,
+      "totalLosses": 73,
+      "totalPointsFor": 12166.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 37.6,
+      "playoffPercentage": 11.1,
+      "bestRecord": {
+        "year": 2009,
+        "wins": 8,
+        "losses": 5,
+        "pointsFor": 1603.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2016,
+        "wins": 2,
+        "losses": 11,
+        "pointsFor": 1348,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1351.83,
+      "avgWinsPerSeason": 4.9
+    }
+  },
+  {
+    "id": "harjinder-dhindsa",
+    "name": "Harjinder Dhindsa",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "championships": [
+      2013
+    ],
+    "runnerUps": [
+      2015,
+      2019
+    ],
+    "mostPointsSeasons": [
+      2013
+    ],
+    "lastPlaceSeasons": [
+      2021
+    ],
+    "totalSeasons": 10,
+    "playoffAppearances": 3,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 66,
+      "totalLosses": 66,
+      "totalPointsFor": 15151,
+      "totalPointsAgainst": 0,
+      "winPercentage": 50,
+      "playoffPercentage": 30,
+      "bestRecord": {
+        "year": 2013,
+        "wins": 8,
+        "losses": 5,
+        "pointsFor": 1789.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2019,
+        "wins": 4,
+        "losses": 9,
+        "pointsFor": 1409,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1515.1,
+      "avgWinsPerSeason": 6.6
+    }
+  },
+  {
+    "id": "harmin-kang",
+    "name": "Harmin Kang",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2006,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [
+      2019
+    ],
+    "lastPlaceSeasons": [
+      2015
+    ],
+    "totalSeasons": 18,
+    "playoffAppearances": 9,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 127,
+      "totalLosses": 110,
+      "totalPointsFor": 24899,
+      "totalPointsAgainst": 0,
+      "winPercentage": 53.6,
+      "playoffPercentage": 50,
+      "bestRecord": {
+        "year": 2019,
+        "wins": 12,
+        "losses": 1,
+        "pointsFor": 1631,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2015,
+        "wins": 3,
+        "losses": 10,
+        "pointsFor": 1278.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1383.28,
+      "avgWinsPerSeason": 7.1
+    }
+  },
+  {
+    "id": "harp-grewal",
+    "name": "Harp Grewal",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2007
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 4,
+      "totalLosses": 9,
+      "totalPointsFor": 1422.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 30.8,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2007,
+        "wins": 4,
+        "losses": 9,
+        "pointsFor": 1422.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2007,
+        "wins": 4,
+        "losses": 9,
+        "pointsFor": 1422.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1422.5,
+      "avgWinsPerSeason": 4
+    }
+  },
+  {
+    "id": "jagbinder-khangura",
+    "name": "Jagbinder Khangura",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [
+      2019
+    ],
+    "runnerUps": [
+      2021,
+      2024
+    ],
+    "mostPointsSeasons": [
+      2012,
+      2020
+    ],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 16,
+    "playoffAppearances": 6,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 109,
+      "totalLosses": 103,
+      "totalPointsFor": 24340.2,
+      "totalPointsAgainst": 0,
+      "winPercentage": 51.4,
+      "playoffPercentage": 37.5,
+      "bestRecord": {
+        "year": 2025,
+        "wins": 9,
+        "losses": 5,
+        "pointsFor": 1589.9999999999998,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2016,
+        "wins": 3,
+        "losses": 9,
+        "pointsFor": 1365.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1521.26,
+      "avgWinsPerSeason": 6.8
+    }
+  },
+  {
+    "id": "jasbir-singh",
+    "name": "Jasbir Singh",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2007
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 5,
+      "totalLosses": 8,
+      "totalPointsFor": 1346.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 38.5,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2007,
+        "wins": 5,
+        "losses": 8,
+        "pointsFor": 1346.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2007,
+        "wins": 5,
+        "losses": 8,
+        "pointsFor": 1346.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1346.5,
+      "avgWinsPerSeason": 5
+    }
+  },
+  {
+    "id": "jasmeet-sidhu",
+    "name": "Jasmeet Sidhu",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [
+      2006,
+      2008
+    ],
+    "runnerUps": [],
+    "mostPointsSeasons": [
+      2006,
+      2008
+    ],
+    "lastPlaceSeasons": [
+      2023
+    ],
+    "totalSeasons": 17,
+    "playoffAppearances": 8,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 125,
+      "totalLosses": 117,
+      "totalPointsFor": 21377.399999999998,
+      "totalPointsAgainst": 0,
+      "winPercentage": 51.7,
+      "playoffPercentage": 47.1,
+      "bestRecord": {
+        "year": 2008,
+        "wins": 10,
+        "losses": 3,
+        "pointsFor": 1570,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2024,
+        "wins": 3,
+        "losses": 11,
+        "pointsFor": 1347.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1257.49,
+      "avgWinsPerSeason": 7.4
+    }
+  },
+  {
+    "id": "jessi-singh",
+    "name": "Jessi Singh",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 9,
+      "totalLosses": 8,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 52.9,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2004,
+        "wins": 9,
+        "losses": 8,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2004,
+        "wins": 9,
+        "losses": 8,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 9
+    }
+  },
+  {
+    "id": "jimmy-bhullar",
+    "name": "Jimmy Bhullar",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [
+      2017
+    ],
+    "runnerUps": [
+      2014,
+      2018
+    ],
+    "mostPointsSeasons": [
+      2014
+    ],
+    "lastPlaceSeasons": [
+      2009,
+      2024
+    ],
+    "totalSeasons": 22,
+    "playoffAppearances": 7,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 144,
+      "totalLosses": 151,
+      "totalPointsFor": 28240.800000000003,
+      "totalPointsAgainst": 0,
+      "winPercentage": 48.8,
+      "playoffPercentage": 31.8,
+      "bestRecord": {
+        "year": 2007,
+        "wins": 10,
+        "losses": 3,
+        "pointsFor": 1631.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2025,
+        "wins": 4,
+        "losses": 10,
+        "pointsFor": 1204.9,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1283.67,
+      "avgWinsPerSeason": 6.5
+    }
+  },
+  {
+    "id": "joe-pannu",
+    "name": "Joe Pannu",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005
+    ],
+    "championships": [],
+    "runnerUps": [
+      2005
+    ],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 2,
+    "playoffAppearances": 1,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 11,
+      "totalLosses": 19,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 36.7,
+      "playoffPercentage": 50,
+      "bestRecord": {
+        "year": 2005,
+        "wins": 7,
+        "losses": 6,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2004,
+        "wins": 4,
+        "losses": 13,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 5.5
+    }
+  },
+  {
+    "id": "kam-johal",
+    "name": "Kam Johal",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2010,
+      2014
+    ],
+    "totalSeasons": 7,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 42,
+      "totalLosses": 49,
+      "totalPointsFor": 10276.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 46.2,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2016,
+        "wins": 7,
+        "losses": 6,
+        "pointsFor": 1510.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2014,
+        "wins": 5,
+        "losses": 8,
+        "pointsFor": 1429,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1468.07,
+      "avgWinsPerSeason": 6
+    }
+  },
+  {
+    "id": "kamal-singh",
+    "name": "Kamal Singh",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2007
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [
+      2007
+    ],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 1,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 10,
+      "totalLosses": 3,
+      "totalPointsFor": 1746.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 76.9,
+      "playoffPercentage": 100,
+      "bestRecord": {
+        "year": 2007,
+        "wins": 10,
+        "losses": 3,
+        "pointsFor": 1746.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2007,
+        "wins": 10,
+        "losses": 3,
+        "pointsFor": 1746.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1746.5,
+      "avgWinsPerSeason": 10
+    }
+  },
+  {
+    "id": "karnie-bhangu",
+    "name": "Karnie Bhangu",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "championships": [],
+    "runnerUps": [
+      2007
+    ],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 9,
+    "playoffAppearances": 2,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 50,
+      "totalLosses": 66,
+      "totalPointsFor": 9854.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 43.1,
+      "playoffPercentage": 22.2,
+      "bestRecord": {
+        "year": 2008,
+        "wins": 10,
+        "losses": 3,
+        "pointsFor": 1199.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2010,
+        "wins": 2,
+        "losses": 11,
+        "pointsFor": 1311,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1094.94,
+      "avgWinsPerSeason": 5.6
+    }
+  },
+  {
+    "id": "mani-sandhu",
+    "name": "Mani Sandhu",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [
+      2022
+    ],
+    "runnerUps": [
+      2023
+    ],
+    "mostPointsSeasons": [
+      2021
+    ],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 5,
+    "playoffAppearances": 3,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 38,
+      "totalLosses": 32,
+      "totalPointsFor": 7586.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 54.3,
+      "playoffPercentage": 60,
+      "bestRecord": {
+        "year": 2022,
+        "wins": 10,
+        "losses": 4,
+        "pointsFor": 1436.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2025,
+        "wins": 5,
+        "losses": 9,
+        "pointsFor": 1478.2,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1517.3,
+      "avgWinsPerSeason": 7.6
+    }
+  },
+  {
+    "id": "noor-sandhu",
+    "name": "Noor Sandhu",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2009,
+      2017,
+      2019,
+      2020,
+      2021,
+      2022,
+      2025
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2017
+    ],
+    "totalSeasons": 7,
+    "playoffAppearances": 3,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 46,
+      "totalLosses": 48,
+      "totalPointsFor": 10243.6,
+      "totalPointsAgainst": 0,
+      "winPercentage": 48.9,
+      "playoffPercentage": 42.9,
+      "bestRecord": {
+        "year": 2021,
+        "wins": 8,
+        "losses": 6,
+        "pointsFor": 1563,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2017,
+        "wins": 5,
+        "losses": 8,
+        "pointsFor": 1333.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1463.37,
+      "avgWinsPerSeason": 6.6
+    }
+  },
+  {
+    "id": "nuvpreet-bhandal",
+    "name": "Nuvpreet Bhandal",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2024,
+      2025
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2025
+    ],
+    "totalSeasons": 2,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 9,
+      "totalLosses": 19,
+      "totalPointsFor": 2714.1000000000004,
+      "totalPointsAgainst": 0,
+      "winPercentage": 32.1,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2024,
+        "wins": 7,
+        "losses": 7,
+        "pointsFor": 1569.8000000000004,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2025,
+        "wins": 2,
+        "losses": 12,
+        "pointsFor": 1144.3,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1357.05,
+      "avgWinsPerSeason": 4.5
+    }
+  },
+  {
+    "id": "parwinder-dhindsa",
+    "name": "Parwinder Dhindsa",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [
+      2023
+    ],
+    "runnerUps": [],
+    "mostPointsSeasons": [
+      2024
+    ],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 9,
+    "playoffAppearances": 4,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 59,
+      "totalLosses": 65,
+      "totalPointsFor": 12039.8,
+      "totalPointsAgainst": 0,
+      "winPercentage": 47.6,
+      "playoffPercentage": 44.4,
+      "bestRecord": {
+        "year": 2023,
+        "wins": 10,
+        "losses": 4,
+        "pointsFor": 1664.8,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2011,
+        "wins": 3,
+        "losses": 10,
+        "pointsFor": 1453,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1337.76,
+      "avgWinsPerSeason": 6.6
+    }
+  },
+  {
+    "id": "raj-s",
+    "name": "Raj S",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [
+      2007,
+      2012,
+      2020,
+      2021
+    ],
+    "runnerUps": [
+      2016
+    ],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 22,
+    "playoffAppearances": 10,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 153,
+      "totalLosses": 142,
+      "totalPointsFor": 28677.9,
+      "totalPointsAgainst": 0,
+      "winPercentage": 51.9,
+      "playoffPercentage": 45.5,
+      "bestRecord": {
+        "year": 2016,
+        "wins": 11,
+        "losses": 2,
+        "pointsFor": 1726.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2008,
+        "wins": 4,
+        "losses": 9,
+        "pointsFor": 1247.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1303.54,
+      "avgWinsPerSeason": 7
+    }
+  },
+  {
+    "id": "raj-sidhu",
+    "name": "Raj Sidhu",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2018
+    ],
+    "championships": [
+      2005,
+      2009
+    ],
+    "runnerUps": [
+      2006,
+      2011
+    ],
+    "mostPointsSeasons": [
+      2005
+    ],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 10,
+    "playoffAppearances": 4,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 76,
+      "totalLosses": 58,
+      "totalPointsFor": 11138.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 56.7,
+      "playoffPercentage": 40,
+      "bestRecord": {
+        "year": 2005,
+        "wins": 9,
+        "losses": 4,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2013,
+        "wins": 6,
+        "losses": 7,
+        "pointsFor": 1538.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1113.85,
+      "avgWinsPerSeason": 7.6
+    }
+  },
+  {
+    "id": "ram-parmar",
+    "name": "Ram Parmar",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2013,
+      2015,
+      2016,
+      2018
+    ],
+    "championships": [
+      2016
+    ],
+    "runnerUps": [],
+    "mostPointsSeasons": [
+      2016
+    ],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 4,
+    "playoffAppearances": 1,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 27,
+      "totalLosses": 25,
+      "totalPointsFor": 6360.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 51.9,
+      "playoffPercentage": 25,
+      "bestRecord": {
+        "year": 2016,
+        "wins": 10,
+        "losses": 3,
+        "pointsFor": 1742.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2015,
+        "wins": 5,
+        "losses": 8,
+        "pointsFor": 1323,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1590.13,
+      "avgWinsPerSeason": 6.8
+    }
+  },
+  {
+    "id": "raman-g",
+    "name": "Raman G",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2006
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2006
+    ],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 7,
+      "totalLosses": 6,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 53.8,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2006,
+        "wins": 7,
+        "losses": 6,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2006,
+        "wins": 7,
+        "losses": 6,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 7
+    }
+  },
+  {
+    "id": "raman-prasher",
+    "name": "Raman Prasher",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2008,
+      2009
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 2,
+    "playoffAppearances": 1,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 13,
+      "totalLosses": 13,
+      "totalPointsFor": 2553,
+      "totalPointsAgainst": 0,
+      "winPercentage": 50,
+      "playoffPercentage": 50,
+      "bestRecord": {
+        "year": 2009,
+        "wins": 9,
+        "losses": 4,
+        "pointsFor": 1398.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2008,
+        "wins": 4,
+        "losses": 9,
+        "pointsFor": 1154.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1276.5,
+      "avgWinsPerSeason": 6.5
+    }
+  },
+  {
+    "id": "rammy-jhutty",
+    "name": "Rammy Jhutty",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2010,
+      2011,
+      2012
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2012
+    ],
+    "totalSeasons": 3,
+    "playoffAppearances": 1,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 14,
+      "totalLosses": 25,
+      "totalPointsFor": 4137.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 35.9,
+      "playoffPercentage": 33.3,
+      "bestRecord": {
+        "year": 2010,
+        "wins": 8,
+        "losses": 5,
+        "pointsFor": 1566.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2012,
+        "wins": 1,
+        "losses": 12,
+        "pointsFor": 1027,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1379.17,
+      "avgWinsPerSeason": 4.7
+    }
+  },
+  {
+    "id": "randy-gill",
+    "name": "Randy Gill",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2025
+    ],
+    "championships": [],
+    "runnerUps": [
+      2025
+    ],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 8,
+      "totalLosses": 6,
+      "totalPointsFor": 1576.7,
+      "totalPointsAgainst": 0,
+      "winPercentage": 57.1,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2025,
+        "wins": 8,
+        "losses": 6,
+        "pointsFor": 1576.7,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2025,
+        "wins": 8,
+        "losses": 6,
+        "pointsFor": 1576.7,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1576.7,
+      "avgWinsPerSeason": 8
+    }
+  },
+  {
+    "id": "ranil-bhukhan",
+    "name": "Ranil Bhukhan",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 2,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 9,
+      "totalLosses": 21,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 30,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2004,
+        "wins": 8,
+        "losses": 9,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2005,
+        "wins": 1,
+        "losses": 12,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 4.5
+    }
+  },
+  {
+    "id": "rav-johal",
+    "name": "Rav Johal",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 4,
+    "playoffAppearances": 2,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 26,
+      "totalLosses": 28,
+      "totalPointsFor": 5839,
+      "totalPointsAgainst": 0,
+      "winPercentage": 48.1,
+      "playoffPercentage": 50,
+      "bestRecord": {
+        "year": 2019,
+        "wins": 8,
+        "losses": 5,
+        "pointsFor": 1617.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2022,
+        "wins": 5,
+        "losses": 9,
+        "pointsFor": 1292.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1459.75,
+      "avgWinsPerSeason": 6.5
+    }
+  },
+  {
+    "id": "rishi-sekhon",
+    "name": "Rishi Sekhon",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2004
+    ],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 3,
+      "totalLosses": 14,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 17.6,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2004,
+        "wins": 3,
+        "losses": 14,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2004,
+        "wins": 3,
+        "losses": 14,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 3
+    }
+  },
+  {
+    "id": "ron-hansra",
+    "name": "Ron Hansra",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004,
+      2005,
+      2006,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2018
+    ],
+    "championships": [
+      2004,
+      2011
+    ],
+    "runnerUps": [
+      2004
+    ],
+    "mostPointsSeasons": [
+      2011
+    ],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 13,
+    "playoffAppearances": 6,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 99,
+      "totalLosses": 74,
+      "totalPointsFor": 16388.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 57.2,
+      "playoffPercentage": 46.2,
+      "bestRecord": {
+        "year": 2004,
+        "wins": 14,
+        "losses": 3,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2009,
+        "wins": 4,
+        "losses": 9,
+        "pointsFor": 1462,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1260.65,
+      "avgWinsPerSeason": 7.6
+    }
+  },
+  {
+    "id": "simran-hansrai",
+    "name": "Simran Hansrai",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 6,
+      "totalLosses": 11,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 35.3,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2004,
+        "wins": 6,
+        "losses": 11,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2004,
+        "wins": 6,
+        "losses": 11,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 6
+    }
+  },
+  {
+    "id": "sukhjit-sull",
+    "name": "Sukhjit Sull",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [],
+    "runnerUps": [
+      2008
+    ],
+    "mostPointsSeasons": [
+      2009
+    ],
+    "lastPlaceSeasons": [
+      2007
+    ],
+    "totalSeasons": 14,
+    "playoffAppearances": 7,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 86,
+      "totalLosses": 101,
+      "totalPointsFor": 16841,
+      "totalPointsAgainst": 0,
+      "winPercentage": 46,
+      "playoffPercentage": 50,
+      "bestRecord": {
+        "year": 2025,
+        "wins": 10,
+        "losses": 4,
+        "pointsFor": 1501.3,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2021,
+        "wins": 2,
+        "losses": 12,
+        "pointsFor": 1224.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1202.93,
+      "avgWinsPerSeason": 6.1
+    }
+  },
+  {
+    "id": "sundeep-bhullar",
+    "name": "Sundeep Bhullar",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2007,
+      2008,
+      2014,
+      2015,
+      2016,
+      2017,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2025
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [
+      2020
+    ],
+    "totalSeasons": 12,
+    "playoffAppearances": 4,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 73,
+      "totalLosses": 86,
+      "totalPointsFor": 16638.6,
+      "totalPointsAgainst": 0,
+      "winPercentage": 45.9,
+      "playoffPercentage": 33.3,
+      "bestRecord": {
+        "year": 2008,
+        "wins": 9,
+        "losses": 4,
+        "pointsFor": 1385.5,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2021,
+        "wins": 4,
+        "losses": 10,
+        "pointsFor": 1256,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1386.55,
+      "avgWinsPerSeason": 6.1
+    }
+  },
+  {
+    "id": "sunny-dhaliwal",
+    "name": "Sunny Dhaliwal",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "championships": [],
+    "runnerUps": [
+      2020
+    ],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 7,
+    "playoffAppearances": 3,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": true,
+    "stats": {
+      "totalWins": 53,
+      "totalLosses": 43,
+      "totalPointsFor": 10616.5,
+      "totalPointsAgainst": 0,
+      "winPercentage": 55.2,
+      "playoffPercentage": 42.9,
+      "bestRecord": {
+        "year": 2024,
+        "wins": 11,
+        "losses": 3,
+        "pointsFor": 1668.8000000000004,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2022,
+        "wins": 4,
+        "losses": 10,
+        "pointsFor": 1386.5,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 1516.64,
+      "avgWinsPerSeason": 7.6
+    }
+  },
+  {
+    "id": "super-lund",
+    "name": "Super Lund",
+    "teamNames": [
+      "undefined undefined"
+    ],
+    "seasonsPlayed": [
+      2004
+    ],
+    "championships": [],
+    "runnerUps": [],
+    "mostPointsSeasons": [],
+    "lastPlaceSeasons": [],
+    "totalSeasons": 1,
+    "playoffAppearances": 0,
+    "playoffRecord": {
+      "wins": 0,
+      "losses": 0
+    },
+    "isActive": false,
+    "stats": {
+      "totalWins": 8,
+      "totalLosses": 9,
+      "totalPointsFor": 0,
+      "totalPointsAgainst": 0,
+      "winPercentage": 47.1,
+      "playoffPercentage": 0,
+      "bestRecord": {
+        "year": 2004,
+        "wins": 8,
+        "losses": 9,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "worstRecord": {
+        "year": 2004,
+        "wins": 8,
+        "losses": 9,
+        "pointsFor": 0,
+        "pointsAgainst": 0
+      },
+      "avgPointsPerSeason": 0,
+      "avgWinsPerSeason": 8
+    }
+  }
+]
