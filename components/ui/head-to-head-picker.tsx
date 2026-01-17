@@ -58,20 +58,9 @@ export function HeadToHeadPicker({ seasons, activeOwners }: HeadToHeadPickerProp
       matchups: [],
     };
 
-    // Helper to normalize owner names for comparison
-    const normalizeOwner = (name: string) => {
-      return name.toLowerCase().split(' ')[0];
-    };
-
+    // Helper to match owner names (case-insensitive full name comparison)
     const matchesPlayer = (ownerName: string, player: string) => {
-      const normalized = normalizeOwner(ownerName);
-      const playerNorm = player.toLowerCase();
-
-      // Handle aliases - customize as needed for PFL
-      const aliases: Record<string, string[]> = {};
-
-      if (aliases[playerNorm]?.includes(normalized)) return true;
-      return normalized === playerNorm;
+      return ownerName.toLowerCase().trim() === player.toLowerCase().trim();
     };
 
     seasons.forEach(season => {

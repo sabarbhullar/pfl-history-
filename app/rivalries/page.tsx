@@ -28,7 +28,8 @@ function loadData() {
 export default function RivalriesPage() {
   const { owners, seasons } = loadData();
   const rivalries = calculateRivalries(seasons, owners).slice(0, 10); // Top 10 rivalries
-  const activeOwners = owners.filter(o => o.isActive).map(o => o.name);
+  // Include all owners for H2H lookup, sorted alphabetically
+  const allOwnerNames = owners.map(o => o.name).sort((a, b) => a.localeCompare(b));
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -42,7 +43,7 @@ export default function RivalriesPage() {
       </div>
 
       {/* Head-to-Head Lookup Tool */}
-      <HeadToHeadPicker seasons={seasons} activeOwners={activeOwners} />
+      <HeadToHeadPicker seasons={seasons} activeOwners={allOwnerNames} />
 
       <h2 className="text-2xl font-bold text-text-primary mb-4">Top Rivalries</h2>
 
