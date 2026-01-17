@@ -87,6 +87,9 @@ export default function OwnersPage() {
 }
 
 function OwnerCard({ owner }: { owner: Owner }) {
+  // Use championshipCount if available (supports 0.5 for split championships)
+  const champCount = (owner as any).championshipCount ?? owner.championships.length;
+
   return (
     <Link
       href={`/owners/${owner.id}`}
@@ -94,10 +97,10 @@ function OwnerCard({ owner }: { owner: Owner }) {
     >
       <div className="flex items-start justify-between mb-4">
         <h3 className="text-xl font-bold text-text-primary">{owner.name}</h3>
-        {owner.championships.length > 0 && (
+        {champCount > 0 && (
           <div className="flex items-center gap-1 text-trophy-gold">
             <span className="text-2xl">🏆</span>
-            <span className="text-lg font-bold">{owner.championships.length}</span>
+            <span className="text-lg font-bold">{champCount}</span>
           </div>
         )}
       </div>

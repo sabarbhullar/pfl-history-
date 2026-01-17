@@ -85,10 +85,13 @@ export default function OwnerProfilePage() {
     })
     .sort((a, b) => b.year - a.year);
 
+  // Use championshipCount if available (supports 0.5 for split championships)
+  const champCount = (owner as any).championshipCount ?? owner.championships.length;
+
   const quickStats = [
     {
       title: 'Championships',
-      value: owner.championships.length,
+      value: champCount,
       subtitle: owner.championships.length > 0 ? owner.championships.join(', ') : 'None yet',
       variant: 'gold' as const,
     },
@@ -120,13 +123,10 @@ export default function OwnerProfilePage() {
           <h1 className="text-4xl font-bold text-text-primary">
             {owner.name}
           </h1>
-          {owner.championships.length > 0 && (
-            <div className="flex items-center gap-2">
-              {owner.championships.map((year) => (
-                <span key={year} className="text-3xl" title={`${year} Champion`}>
-                  🏆
-                </span>
-              ))}
+          {champCount > 0 && (
+            <div className="flex items-center gap-2 text-trophy-gold">
+              <span className="text-3xl">🏆</span>
+              <span className="text-2xl font-bold">{champCount}</span>
             </div>
           )}
         </div>
