@@ -16,7 +16,7 @@ export function createLeaderboard(owners: Owner[]): LeaderboardEntry[] {
   return owners.map(owner => ({
     ownerName: owner.name,
     ownerId: owner.id,
-    championships: owner.championships.length,
+    championships: (owner as any).championshipCount ?? owner.championships.length,
     runnerUps: owner.runnerUps?.length || 0,
     mostPointsTitles: owner.mostPointsSeasons?.length || 0,
     lastPlaceFinishes: owner.lastPlaceSeasons?.length || 0,
@@ -51,8 +51,9 @@ export function calculateRecords(owners: Owner[], seasons: Season[]): Record[] {
 
   // Most championships
   if (owners.length > 0) {
+    const getChampCount = (o: Owner) => (o as any).championshipCount ?? o.championships.length;
     const mostChampionships = owners.reduce(
-      (max, owner) => (owner.championships.length > max.count ? { owner, count: owner.championships.length } : max),
+      (max, owner) => (getChampCount(owner) > max.count ? { owner, count: getChampCount(owner) } : max),
       { owner: owners[0], count: 0 }
     );
     if (mostChampionships.owner && mostChampionships.count > 0) {
@@ -464,8 +465,9 @@ export function calculateAllTimeStats(owners: Owner[], seasons: Season[]): AllTi
     }
   });
 
+  const getChampCount = (o: Owner) => (o as any).championshipCount ?? o.championships.length;
   const mostChampionships = owners.reduce((max, owner) =>
-    owner.championships.length > max.championships.length ? owner : max
+    getChampCount(owner) > getChampCount(max) ? owner : max
   );
 
   return {
@@ -477,7 +479,7 @@ export function calculateAllTimeStats(owners: Owner[], seasons: Season[]): AllTi
     lowestScoringGame: lowestGame.points < Infinity ? lowestGame : { ownerName: 'N/A', points: 0, year: 0, week: 0 },
     mostChampionships: {
       ownerName: mostChampionships.name,
-      count: mostChampionships.championships.length,
+      count: getChampCount(mostChampionships),
     },
     longestWinStreak: { ownerName: 'TBD', streak: 0, years: 'TBD' },
     longestLoseStreak: { ownerName: 'TBD', streak: 0, years: 'TBD' },

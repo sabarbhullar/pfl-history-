@@ -166,14 +166,21 @@ function processESPNData(espnData, year) {
 
   // Determine champion and runner-up first (needed to identify the actual championship game)
   const championOverride = ownerMappings.championOverrides?.[String(year)];
+  const splitChampions = ownerMappings.splitChampionships?.[String(year)];
   const championStanding = standings[0];
   const runnerUpStanding = standings[1];
   const mostPointsStanding = [...standings].sort((a, b) => b.pointsFor - a.pointsFor)[0];
   const lastPlaceStanding = standings[standings.length - 1];
 
-  // Use override if available, otherwise use standings
-  const champion = championOverride || championStanding?.ownerName || 'Unknown';
-  const runnerUp = runnerUpStanding?.ownerName || 'Unknown';
+  // Handle split championships (e.g., "Harbinder Khangura & Amarjit Gill")
+  // Use override if available, then split if available, otherwise use standings
+  let champion;
+  if (splitChampions && splitChampions.length > 0) {
+    champion = splitChampions.join(' & '); // "Harbinder Khangura & Amarjit Gill"
+  } else {
+    champion = championOverride || championStanding?.ownerName || 'Unknown';
+  }
+  const runnerUp = splitChampions ? '' : (runnerUpStanding?.ownerName || 'Unknown');
 
   // Process weekly matchups (filter out bye weeks where away is undefined)
   const weeklyMatchups = schedule
@@ -186,11 +193,24 @@ function processESPNData(espnData, year) {
 
       const isPlayoff = matchup.matchupPeriodId > regularSeasonWeeks;
 
-      // Championship is ONLY the actual championship game (involves both champion AND runner-up)
+      // Championship is ONLY the actual championship game
       const isFinalWeek = matchup.matchupPeriodId === maxWeek && isPlayoff;
-      const involvesChampion = homeOwner === champion || awayOwner === champion;
-      const involvesRunnerUp = homeOwner === runnerUp || awayOwner === runnerUp;
-      const isChampionship = isFinalWeek && involvesChampion && involvesRunnerUp;
+      let isChampionship = false;
+
+      if (isFinalWeek) {
+        if (splitChampions && splitChampions.length === 2) {
+          // For split championships, the game between the two co-champions
+          const involvesBothSplitChamps =
+            (homeOwner === splitChampions[0] && awayOwner === splitChampions[1]) ||
+            (homeOwner === splitChampions[1] && awayOwner === splitChampions[0]);
+          isChampionship = involvesBothSplitChamps;
+        } else {
+          // Normal championship: involves both champion AND runner-up
+          const involvesChampion = homeOwner === champion || awayOwner === champion;
+          const involvesRunnerUp = homeOwner === runnerUp || awayOwner === runnerUp;
+          isChampionship = involvesChampion && involvesRunnerUp;
+        }
+      }
 
       return {
         week: matchup.matchupPeriodId,
@@ -231,42 +251,59 @@ function processESPNData(espnData, year) {
 
 function buildOwnerRecords(seasons) {
   const ownerMap = new Map();
+  const splitChampionships = ownerMappings.splitChampionships || {};
+
+  // Helper to get or create owner record
+  function getOrCreateOwner(ownerName) {
+    const ownerId = ownerName.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '');
+    if (!ownerMap.has(ownerId)) {
+      ownerMap.set(ownerId, {
+        id: ownerId,
+        name: ownerName,
+        teamNames: [],
+        seasonsPlayed: [],
+        championships: [],
+        championshipCount: 0,
+        runnerUps: [],
+        mostPointsSeasons: [],
+        lastPlaceSeasons: [],
+        totalSeasons: 0,
+        playoffAppearances: 0,
+        playoffRecord: { wins: 0, losses: 0 },
+        isActive: true,
+        stats: {
+          totalWins: 0,
+          totalLosses: 0,
+          totalPointsFor: 0,
+          totalPointsAgainst: 0,
+          winPercentage: 0,
+          playoffPercentage: 0,
+          bestRecord: { year: 0, wins: 0, losses: 0, pointsFor: 0, pointsAgainst: 0 },
+          worstRecord: { year: 0, wins: 999, losses: 0, pointsFor: 0, pointsAgainst: 0 },
+          avgPointsPerSeason: 0,
+          avgWinsPerSeason: 0,
+        },
+      });
+    }
+    return ownerMap.get(ownerId);
+  }
+
+  // Pre-process split championships (for owners who may not be in that year's standings)
+  Object.entries(splitChampionships).forEach(([yearStr, champions]) => {
+    const year = parseInt(yearStr);
+    champions.forEach(champName => {
+      const owner = getOrCreateOwner(champName);
+      if (!owner.championships.includes(year)) {
+        owner.championships.push(year);
+        owner.championshipCount += 0.5;
+      }
+    });
+  });
 
   seasons.forEach(season => {
     season.standings.forEach(standing => {
       const ownerName = standing.ownerName;
-      const ownerId = ownerName.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '');
-
-      if (!ownerMap.has(ownerId)) {
-        ownerMap.set(ownerId, {
-          id: ownerId,
-          name: ownerName,
-          teamNames: [],
-          seasonsPlayed: [],
-          championships: [],
-          runnerUps: [],
-          mostPointsSeasons: [],
-          lastPlaceSeasons: [],
-          totalSeasons: 0,
-          playoffAppearances: 0,
-          playoffRecord: { wins: 0, losses: 0 },
-          isActive: true,
-          stats: {
-            totalWins: 0,
-            totalLosses: 0,
-            totalPointsFor: 0,
-            totalPointsAgainst: 0,
-            winPercentage: 0,
-            playoffPercentage: 0,
-            bestRecord: { year: 0, wins: 0, losses: 0, pointsFor: 0, pointsAgainst: 0 },
-            worstRecord: { year: 0, wins: 999, losses: 0, pointsFor: 0, pointsAgainst: 0 },
-            avgPointsPerSeason: 0,
-            avgWinsPerSeason: 0,
-          },
-        });
-      }
-
-      const owner = ownerMap.get(ownerId);
+      const owner = getOrCreateOwner(ownerName);
 
       if (!owner.teamNames.includes(standing.teamName)) {
         owner.teamNames.push(standing.teamName);
@@ -277,8 +314,13 @@ function buildOwnerRecords(seasons) {
         owner.totalSeasons++;
       }
 
-      if (season.champion === ownerName && !owner.championships.includes(season.year)) {
+      // Handle championships (skip split championships - already pre-processed above)
+      const splitChamps = splitChampionships[String(season.year)];
+      const isSplitYear = splitChamps && splitChamps.length > 0;
+
+      if (!isSplitYear && season.champion === ownerName && !owner.championships.includes(season.year)) {
         owner.championships.push(season.year);
+        owner.championshipCount += 1; // Full championship
       }
 
       if (season.runnerUp === ownerName && !owner.runnerUps.includes(season.year)) {

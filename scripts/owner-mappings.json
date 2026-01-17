@@ -1,6 +1,10 @@
 {
   "championOverrides": {
-    "2004": "Ron Hansra"
+    "2004": "Ron Hansra",
+    "2022": "Amarjit Gill"
+  },
+  "splitChampionships": {
+    "2010": ["Harbinder Khangura", "Amarjit Gill"]
   },
   "currentOwners2025": [
     "Aman Nahal",

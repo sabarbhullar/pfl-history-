@@ -13325,8 +13325,8 @@
   },
   {
     "year": 2010,
-    "champion": "Amarjit Gill",
-    "runnerUp": "Aman Nahal",
+    "champion": "Harbinder Khangura & Amarjit Gill",
+    "runnerUp": "",
     "mostPoints": {
       "owner": "Amarjit Gill",
       "teamName": "undefined undefined",
@@ -15446,7 +15446,7 @@
           "score": 109
         },
         "isPlayoff": true,
-        "isChampionship": true
+        "isChampionship": false
       },
       {
         "week": 16,
@@ -38119,7 +38119,7 @@
   },
   {
     "year": 2022,
-    "champion": "Mani Sandhu",
+    "champion": "Amarjit Gill",
     "runnerUp": "Baljit Gill",
     "mostPoints": {
       "owner": "Baljit Gill",
@@ -40336,7 +40336,7 @@
           "score": 79
         },
         "isPlayoff": true,
-        "isChampionship": true
+        "isChampionship": false
       },
       {
         "week": 17,
