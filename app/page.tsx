@@ -62,7 +62,7 @@ export default function HomePage() {
       title: 'Total Seasons',
       value: totalSeasons || 0,
       subtitle: '2004 - Present',
-      variant: 'gold' as const,
+      variant: 'orange' as const,
     },
     {
       title: 'Current Members',
@@ -74,13 +74,13 @@ export default function HomePage() {
       title: 'Most Championships',
       value: mostChampionships?.count || 0,
       subtitle: mostChampionships?.owner?.name || 'N/A',
-      variant: 'gold' as const,
+      variant: 'orange' as const,
     },
     {
       title: 'Reigning Champion',
       value: currentSeason?.champion || 'TBD',
       subtitle: `${currentSeason?.year || 2025} Champion`,
-      variant: 'red' as const,
+      variant: 'orange' as const,
     },
   ];
 
